@@ -1,10 +1,8 @@
 ﻿import pycozmo
 import pyautogui
-import numpy as np
 import toml
 import time
 from PIL import Image, ImageOps, ImageEnhance
-import math
 
 config = toml.load("config.toml")
 
