@@ -20,4 +20,4 @@ Thats it! If it worked, you should be looking at a (poorly rendered) version of 
 # Other Info
 * This has not been tested on any linux distro. If you are on linux, use this, and encounter errors, please make an issue about it
 * You can change what fps it allows itself to go to in config.toml under Screenshots then fps (default is 60)
-  
+* This currently only works on the primary monitor
