@@ -16,7 +16,7 @@ cozmo.wait_for_robot()
 print("Found a cozmo!")
 cozmo.set_head_angle(16)
 
-fpsCount = 0
+frameCount = 0
 
 while True:
     start = time.time()
