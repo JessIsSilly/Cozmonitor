@@ -43,4 +43,4 @@ while True:
 
     elapsed = time.time() - start
     print(f"Frames played {frameCount}, played in {elapsed:.2f} seconds, fps: {frameCount / elapsed:.1f} fps")
-    fpsCount = 0
+    frameCount = 0
