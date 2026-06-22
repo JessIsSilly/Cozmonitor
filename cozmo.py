@@ -39,8 +39,8 @@ while True:
         frame.save("frameLog.png")
 
         cozmo.display_image(frame)
-        fpsCount += 1
+        frameCount += 1
 
     elapsed = time.time() - start
-    print(f"Frames played {fpsCount}, played in {elapsed:.2f} seconds, fps: {fpsCount / elapsed:.1f} fps")
+    print(f"Frames played {frameCount}, played in {elapsed:.2f} seconds, fps: {frameCount / elapsed:.1f} fps")
     fpsCount = 0
